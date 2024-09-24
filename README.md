@@ -1,6 +1,8 @@
-# Servicios-de-Redes-e-Internet-ASIR2
+# Servicios de Redes e Internet 
 Este repositorio incluye actividades llevadas a cabo en el módulo de servicios de redes e internet
 de 2ºASIR
+
+![Texto Alternativo](https://redeseinternetblog.wordpress.com/wp-content/uploads/2017/11/cropped-iab-global-network-644x4292.jpg)
 
 ## Tema 0 - Introducción
 
