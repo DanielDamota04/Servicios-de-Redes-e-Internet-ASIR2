@@ -8,7 +8,7 @@ de 2ºASIR
 
 |Nombre|Descripción|
 |------|-----------|
-|Actividad de introducción|Ejercicios básicos sobre servidores web y protocolos|
+|[Práctica 1 1](Tema-0/Actividad-de-introducción.pdf)|Ejercicios básicos sobre servidores web y protocolos|
 
 ## Tema 1 - Servidores Web
 
