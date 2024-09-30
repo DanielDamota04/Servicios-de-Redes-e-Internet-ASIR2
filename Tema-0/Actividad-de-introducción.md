@@ -79,7 +79,7 @@ Un URL se compone de los siguientes elementos:
 
 <br><br>
 
-Diferencia entre páginas dinámicas y estáticas 
+### Diferencia entre páginas dinámicas y estáticas 
 
 <br>
 
@@ -87,125 +87,91 @@ Páginas estáticas:
 
  
 
-El contenido no cambia a menos que se edite manualmente el archivo. 
+- El contenido no cambia a menos que se edite manualmente el archivo. 
 
  
 
-Están predefinidas en archivos HTML que el servidor entrega tal cual al navegador. 
+- Están predefinidas en archivos HTML que el servidor entrega tal cual al navegador. 
 
  
 
-Ejemplo: un sitio web de una empresa con información fija 
+- Ejemplo: un sitio web de una empresa con información fija 
 
- 
+ <br>
 
 Páginas dinámicas: 
 
  
-
-El contenido se genera en tiempo real, basado en solicitudes del usuario o datos del servidor. 
-
- 
-
-Utilizan lenguajes de programación como PHP, Python o JavaScript para generar el HTML dinámicamente. 
+- El contenido se genera en tiempo real, basado en solicitudes del usuario o datos del servidor. 
 
  
 
-Ejemplo: una red social donde el contenido cambia según el usuario que accede. 
+- Utilizan lenguajes de programación como PHP, Python o JavaScript para generar el HTML dinámicamente. 
 
+
+- Ejemplo: una red social donde el contenido cambia según el usuario que accede. 
+
+<br><br>
  
-
- 
-
-¿Cómo usar telnet para acceder a un servidor web? 
+### ¿Cómo usar telnet para acceder a un servidor web? 
 
 (solución en actividad 0.3) 
 
+<br>
  
-
- 
-
- 
-
 Request. Métodos principales 
-
- 
 
 Métodos: GET (envía recursos) y POST (envía datos para que sean procesados), PUT, HEAD y DELETE. 
 
- 
+<br> 
 
 Response. Códigos:  
 
  
+- Códigos con formato 1xx: Respuestas informativas. Indica que la petición ha sido recibida y se está procesando. 
 
-Códigos con formato 1xx: Respuestas informativas. Indica que la petición ha sido recibida y se está procesando. 
+- Códigos con formato 2xx: Respuestas correctas. Indica que la petición ha sido procesada correctamente. 
 
- 
+- Códigos con formato 3xx: Respuestas de redirección. Indica que el cliente necesita realizar más acciones para finalizar la petición. 
 
-Códigos con formato 2xx: Respuestas correctas. Indica que la petición ha sido procesada correctamente. 
+- Códigos con formato 4xx: Errores causados por el cliente. Indica que ha habido un error en el procesado de la petición a causa de que el cliente ha hecho algo mal. 
 
- 
+- Códigos con formato 5xx: Errores causados por el servidor. Indica que ha habido un error en el procesado de la petición a causa de un fallo en el servidor. 
 
-Códigos con formato 3xx: Respuestas de redirección. Indica que el cliente necesita realizar más acciones para finalizar la petición. 
-
-Códigos con formato 4xx: Errores causados por el cliente. Indica que ha habido un error en el procesado de la petición a causa de que el cliente ha hecho algo mal. 
-
- 
-
-Códigos con formato 5xx: Errores causados por el servidor. Indica que ha habido un error en el procesado de la petición a causa de un fallo en el servidor. 
-
- 
-
- 
+ <br>
 
 Content type. Tipos principales:  
 
  
 
-text: Indica que el contenido es texto plano. Ejemplos de subtipos: html, xml 
+- text: Indica que el contenido es texto plano. Ejemplos de subtipos: html, xml 
 
  
 
-multipart: Indica que tiene múltiples partes de datos independientes. Ejemplos de subtipos: form-data, digest 
+- multipart: Indica que tiene múltiples partes de datos independientes. Ejemplos de subtipos: form-data, digest 
 
  
 
-message: Para encapsular un mensaje existente. Por ejemplo cuando queremos responder a un mensaje de correo incorporando el mensaje origen. Ejemplos de subtipos: partial, rfc822 
+- message: Para encapsular un mensaje existente. Por ejemplo cuando queremos responder a un mensaje de correo incorporando el mensaje origen. Ejemplos de subtipos: partial, rfc822 
 
  
 
-image: Indica que es una imagen. Ej de subtipos: png, gif 
+- image: Indica que es una imagen. Ej de subtipos: png, gif 
 
  
 
-audio: Indica que es un audio. Ejemplos de subtipos: mp3, 32kadpcm 
+- audio: Indica que es un audio. Ejemplos de subtipos: mp3, 32kadpcm 
 
  
 
-video: Indica que es un video. Ejemplos de subtipos: mpeg, avi 
+- video: Indica que es un video. Ejemplos de subtipos: mpeg, avi 
 
  
 
-application: Indica que se trata de datos de aplicación los cuales pueden ser binarios. Ejemplos de subtipos: json, pdf 
+- application: Indica que se trata de datos de aplicación los cuales pueden ser binarios. Ejemplos de subtipos: json, pdf 
 
  
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
 
 Actividad 0.2 - UDP and TCP: Comparison of Transport Protocols 
 
