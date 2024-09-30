@@ -282,3 +282,83 @@ http://www.lawebdelprogramador.com/foros/Windows-10/1510815-Como-activar-Telnet-
  
 
 Uso de comando telnet www.google.com 80 y luego GET / HTTP/1.1 para obtener el código de la página web: 
+
+<br>br>
+
+## Actividad 0.4 - Usando curl 
+
+https://curl.se/docs/manual.html
+
+<br>
+
+Busca información sobre el comando curl y muestra al menos cinco ejemplos de uso:
+
+a) Conseguir la página principal de un servidor web: 
+
+b) Obtener archivo README de un servidor FTP: 
+
+c) Listar directorios de servidor FTP: 
+
+d) Obtener dos documentos a la vez: 
+
+e) Descargar archivo de servidor FTPS: 
+
+<br><br>
+
+## Actividad 0.5 - Práctica servidor web 
+
+1. Visita los siguientes enlaces:
+2. 
+Simple web server (ejemplo 1) 
+https://docs.python.org/3/library/http.server.html
+
+python -m http.server 8000 
+
+http server (ejemplo 2) 
+https://github.com/python/cpython/blob/main/Lib/http/server.py 
+
+dummy web server (ejemplo 3) 
+https://gist.github.com/kabinpokhrel/6fd1275603e9d5f1e284be717cbd1bff 
+
+3. Instala Python.
+   
+4. Ejecuta los ejemplos mostrados con anterioridad.
+   
+5. Publica en GitHub los ejemplos llevados a cabo. Los ejemplos se acompañarán con 
+capturas de pantalla en las que se muestre su funcionamiento.
+
+Ejemplo 1: 
+Inicializamos el servidor web en el puerto 8000 y luego accedemos a localhost:8000 desde 
+el navegador: 
+ 
+ 
+Ejemplo 3: 
+ 
+Utilizamos el código de github y lo guardamos en la carpeta de usuario del equipo: 
+ 
+ 
+ 
+Ahora ejecutamos el comando python server.py:8000
+
+<br><br>
+
+## Actividad 0.5. Repositorio Github 
+<br>
+
+Crea una cuenta en Github, si no la tienes ya. Crea un repositorio en Github con el nombre 
+del módulo. El repositorio incluirá una carpeta para cada tema: “Tema0”, “Tema1”,... 
+“TemaN” en el que incluirás las actividades que se te indiquen expresamente. 
+El repositorio incluirá un archivo “README” en el que se enlazaran la solución a los 
+ejercicios incluidos en las carpetas anteriores. 
+La página README del repositorio debe tener un aspecto parecido al mostrado a 
+continuación: 
+
+Nombre del módulo 
+Este repositorio incluye actividades llevadas a cabo en el módulo 
+nombredelmódulo 
+
+Nota: Si no has utilizado antes Github, es recomendable que cree un repositorio nuevo 
+llamado “prueba” que incluya una página “README.md”. Utiliza markdown para que incluya 
+varias cabeceras, texto, una lista, un gráfico y una tabla. Previamente se recomienda leer: 
+a. https://github.com/Github-Classroom-Cybros/Learn-Github 
+b. https://guides.github.com/features/mastering-markdown/
