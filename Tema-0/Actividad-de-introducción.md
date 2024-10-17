@@ -283,7 +283,7 @@ http://www.lawebdelprogramador.com/foros/Windows-10/1510815-Como-activar-Telnet-
 
 Uso de comando telnet www.google.com 80 y luego GET / HTTP/1.1 para obtener el código de la página web: 
 
-<br>br>
+<br><br>
 
 ## Actividad 0.4 - Usando curl 
 
