@@ -11,8 +11,11 @@ Trabajando con scripts (debes publicarlos en GitHub), se te plantea resolver los
    - Validación de argumentos.
    - Lectura y modificación del fichero de configuración de Apache.
    - Comprobación de la existencia del puerto.
+  
+   <br>
 
-     **Contenido del script:**
+     ![Texto alternativo](imagenes/puertos.png)
+
 
      
 
@@ -23,7 +26,12 @@ Trabajando con scripts (debes publicarlos en GitHub), se te plantea resolver los
    - Validación de argumentos.
    - Lectura del fichero `/etc/hosts`.
    - Añadir la entrada solo si no existe.
-   **Contenido del script:**
+  
+     <br>
+
+   ![Texto alternativo](imagenes/hosts.png)
+     
+   
 
 3. **Crear una página web**
 
