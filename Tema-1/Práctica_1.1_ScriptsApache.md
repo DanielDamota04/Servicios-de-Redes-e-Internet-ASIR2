@@ -42,4 +42,10 @@ Trabajando con scripts (debes publicarlos en GitHub), se te plantea resolver los
 
    - Generación de un archivo HTML básico.
    - Personalización de título, cabecera y mensaje a partir de los argumentos de entrada.
-   **Contenido del script:**
+
+   <br><br>
+   <img src="imagenes/webpage1.png" alt="Página web 1" />
+
+   <br><br>
+   <img src="imagenes/webpage2.png" alt="Página web 1" />
+ 
