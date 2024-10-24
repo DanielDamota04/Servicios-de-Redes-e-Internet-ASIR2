@@ -2,11 +2,9 @@
 
 # Daniel Damota Maldonado 
 
- 
-
 Visualiza los siguientes videos y responde a las cuestiones planteadas a continuación 
 
-<br><br>
+<br>
 
 ## Actividad 0.1 - HTTP Introduction
 
@@ -16,22 +14,19 @@ https://www.youtube.com/watch?v=DuSURHrZG6I
 
 <br><br>
 
- 
-
-¿Quién, dónde y cuándo se crea el primer servidor web? 
+### ¿Quién, dónde y cuándo se crea el primer servidor web? 
 
 El primer servidor web fue creado por Tim Berners-Lee, un científico británico del CERN (Organización Europea para la Investigación Nuclear) en Suiza. Fue lanzado el 6 de agosto de 1991, y se considera el nacimiento oficial de la World Wide Web (WWW). 
 
 <br><br>
 
-<u>¿Qué es pila de protocolos usados por http?</u>
+### ¿Qué es pila de protocolos usados por http?
 
 La pila de protocolos usada por HTTP (Hypertext Transfer Protocol) se refiere a los distintos niveles o capas de protocolos de red que permiten la comunicación en la web. 
 
 <br><br>
 
-¿Componentes de una URL? 
-
+### ¿Componentes de una URL? 
 
 Un URL se compone de los siguientes elementos: 
 
@@ -53,7 +48,7 @@ Un URL se compone de los siguientes elementos:
 <br><br>
  
 
-## ¿Pasos en la recuperación de una página web mediante HTTP? 
+### ¿Pasos en la recuperación de una página web mediante HTTP? 
 
  <br>
 
@@ -142,8 +137,6 @@ Response. Códigos:
 
 Content type. Tipos principales:  
 
- 
-
 - text: Indica que el contenido es texto plano. Ejemplos de subtipos: html, xml 
 
  
@@ -170,100 +163,51 @@ Content type. Tipos principales:
 
 - application: Indica que se trata de datos de aplicación los cuales pueden ser binarios. Ejemplos de subtipos: json, pdf 
 
+<br><br>
  
+## Actividad 0.2 - UDP and TCP: Comparison of Transport Protocols
 
+[Video de referencia](https://www.youtube.com/watch?v=Vdc8TCESIg8)
 
-Actividad 0.2 - UDP and TCP: Comparison of Transport Protocols 
+### Diferencias entre UDP y TCP (min 2:46 y 4:15)
 
-https://www.youtube.com/watch?v=Vdc8TCESIg8 
+### Conexión
 
- 
+- **TCP**: Es un protocolo orientado a la conexión. Establece una conexión antes de enviar datos.
+- **UDP**: Es un protocolo sin conexión. Envía datos sin establecer una conexión previa.
 
-Diferencias entre udp y tcp (min 2:46 y 4:15) 
+### Fiabilidad
 
- 
+- **TCP**: Garantiza la entrega de paquetes y el orden correcto. Realiza corrección de errores.
+- **UDP**: No garantiza la entrega ni el orden. Es más rápido, pero menos fiable.
 
-Conexión: 
+### Aplicaciones que utilizan TCP
 
- 
+- HTTP
+- IMAP
+- POP
+- SMTP
 
-TCP: Es un protocolo orientado a la conexión. Establece una conexión antes de enviar datos. 
+### Aplicaciones que utilizan UDP
 
- 
+- DNS
+- SNMP
 
-UDP: Es un protocolo sin conexión. Envía datos sin establecer una conexión previa. 
+### ¿Qué capa almacena el puerto?
 
- 
+**Capa de Transporte**: TCP y UDP utilizan números de puerto para identificar aplicaciones específicas.
 
-Fiabilidad: 
+### ¿Qué capa almacena la dirección IP?
 
- 
+**Capa de Red**: La dirección IP se utiliza para identificar dispositivos en una red.
 
-TCP: Garantiza la entrega de paquetes y el orden correcto. Realiza corrección de errores. 
-
- 
-
-UDP: No garantiza la entrega ni el orden. Es más rápido, pero menos fiable. 
-
- 
-
- 
-
-¿Qué aplicaciones usan tcp?  
-
- 
-
-HTTP, IMAC, POP, SMTP 
-
- 
-
-¿Qué aplicaciones usan udp?  
-
- 
-
-DNS, SNMP 
-
- 
-
-¿Qué capa almacena el puerto?  
-
- 
-
-Capa de Transporte: TCP y UDP utilizan números de puerto para identificar aplicaciones específicas. 
-
- 
-
-¿Qué capa almacena la dirección IP? 
-
- 
-
-Capa de Red: La dirección IP se utiliza para identificar dispositivos en una red. 
-
- 
-
- 
-
- 
-
+<br><br>
 ¿Qué es three-way handshake? 
-
- 
 
 El three-way handshake (apretón de manos en tres pasos) es el proceso que utiliza el protocolo TCP para establecer una conexión confiable entre un cliente y un servidor antes de comenzar a intercambiar datos. Este mecanismo garantiza que ambas partes estén listas para la comunicación. 
 
  
-
- 
-
- 
-
- 
-
- 
-
- 
-
-Actividad 0.3 - Práctica telnet/http 
+### Actividad 0.3 - Práctica telnet/http 
 
 https://www.youtube.com/watch?v=xpBpGC08f4Q&t=189s 
 
@@ -271,17 +215,21 @@ http://www.profesordeinformatica.com/servicios/http/telnet
 
 Lee el artículo y prueba los ejemplos sugeridos en él. 
 
- 
-
 Nota: Si usamos Windows 10, tenemos que activar “telnet” 
 
 http://www.lawebdelprogramador.com/foros/Windows-10/1510815-Como-activar-Telnet-en-Windows-10.html 
 
+<br>
  
-
- 
-
 Uso de comando telnet www.google.com 80 y luego GET / HTTP/1.1 para obtener el código de la página web: 
+
+![image](https://github.com/user-attachments/assets/d74a0b84-931a-49ea-9330-5b1787a2f977)
+
+<br>
+
+Obtención de la página www.profesorinformatica.com:
+
+![image](https://github.com/user-attachments/assets/a8c96eff-7efe-4e06-94c7-246e650da207)
 
 <br><br>
 
@@ -291,54 +239,75 @@ https://curl.se/docs/manual.html
 
 <br>
 
-Busca información sobre el comando curl y muestra al menos cinco ejemplos de uso:
+### Busca información sobre el comando curl y muestra al menos cinco ejemplos de uso:
 
 a) Conseguir la página principal de un servidor web: 
 
+![image](https://github.com/user-attachments/assets/9233fc06-f5fe-4cc0-b52e-5f5277748e2c)
+
 b) Obtener archivo README de un servidor FTP: 
+
+![image](https://github.com/user-attachments/assets/165afaf2-8c3d-4714-904a-d286895d5bff)
 
 c) Listar directorios de servidor FTP: 
 
+![image](https://github.com/user-attachments/assets/fc72a0e6-6f9e-41c7-87c1-4b93cd843169)
+
 d) Obtener dos documentos a la vez: 
 
+![image](https://github.com/user-attachments/assets/ab1cbbad-8cd2-40a4-a7c3-e9ad5bc6f548)
+
 e) Descargar archivo de servidor FTPS: 
+
+![image](https://github.com/user-attachments/assets/f918c793-6557-4092-a809-c15947afcf5c)
+
 
 <br><br>
 
 ## Actividad 0.5 - Práctica servidor web 
 
+<br>
+
 1. Visita los siguientes enlaces:
-2. 
+   
 Simple web server (ejemplo 1) 
 https://docs.python.org/3/library/http.server.html
-
+<br>
 python -m http.server 8000 
-
+<br>
 http server (ejemplo 2) 
 https://github.com/python/cpython/blob/main/Lib/http/server.py 
-
+<br>
 dummy web server (ejemplo 3) 
 https://gist.github.com/kabinpokhrel/6fd1275603e9d5f1e284be717cbd1bff 
-
-3. Instala Python.
-   
-4. Ejecuta los ejemplos mostrados con anterioridad.
-   
-5. Publica en GitHub los ejemplos llevados a cabo. Los ejemplos se acompañarán con 
+<br><br>
+2. Instala Python.
+<br><br>
+3. Ejecuta los ejemplos mostrados con anterioridad.
+<br><br>   
+4. Publica en GitHub los ejemplos llevados a cabo. Los ejemplos se acompañarán con 
 capturas de pantalla en las que se muestre su funcionamiento.
+<br><br>
 
 Ejemplo 1: 
 Inicializamos el servidor web en el puerto 8000 y luego accedemos a localhost:8000 desde 
 el navegador: 
- 
+
+<br>
+
+![image](https://github.com/user-attachments/assets/be9581df-09d6-4d41-89e1-e3a8a301a451)
+
  
 Ejemplo 3: 
  
 Utilizamos el código de github y lo guardamos en la carpeta de usuario del equipo: 
- 
- 
+
+![image](https://github.com/user-attachments/assets/d2473d7e-398f-4923-ad41-1003c2eef55f)
+
  
 Ahora ejecutamos el comando python server.py:8000
+
+![image](https://github.com/user-attachments/assets/43503b58-9fbc-4e86-9386-bdfc26eb16b7)
 
 <br><br>
 
@@ -353,6 +322,9 @@ ejercicios incluidos en las carpetas anteriores.
 La página README del repositorio debe tener un aspecto parecido al mostrado a 
 continuación: 
 
+![image](https://github.com/user-attachments/assets/84ccfc63-d93a-4b90-8413-55d9dc1dcc9a)
+
+
 Nombre del módulo 
 Este repositorio incluye actividades llevadas a cabo en el módulo 
 nombredelmódulo 
@@ -360,5 +332,17 @@ nombredelmódulo
 Nota: Si no has utilizado antes Github, es recomendable que cree un repositorio nuevo 
 llamado “prueba” que incluya una página “README.md”. Utiliza markdown para que incluya 
 varias cabeceras, texto, una lista, un gráfico y una tabla. Previamente se recomienda leer: 
+<br>
 a. https://github.com/Github-Classroom-Cybros/Learn-Github 
 b. https://guides.github.com/features/mastering-markdown/
+
+![image](https://github.com/user-attachments/assets/b8e003f0-7e66-4179-9014-9fa1d91c3de8)
+
+<br>
+
+![image](https://github.com/user-attachments/assets/ca37e33a-c517-41c9-be01-ae5a470ee1e4)
+
+
+
+
+
