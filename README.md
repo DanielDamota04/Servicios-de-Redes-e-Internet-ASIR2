@@ -22,7 +22,7 @@ de 2ºASIR
 | Práctica           | Descripción                                           |
 |--------------------|-------------------------------------------------------|
 | [Práctica 1](Tema-1/Práctica_1.1_ScriptsApache.md) | Scripts básicos para facilitar tareas en Apache      |
-| [Práctica 2](Tema-1/Práctica_1.2_ServidoresWeb.md) | Trabajo final del primer trimestre, guia completa sobre Apache      |
+| [Práctica 2](Tema-1/Práctica_1.2_ServidoresWeb.md) | Trabajo final del primer trimestre sobre Servidores Web    |
 
 
 ---
