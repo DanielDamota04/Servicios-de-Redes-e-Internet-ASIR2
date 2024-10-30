@@ -62,29 +62,66 @@ Instalar y configurar un servidor web interno para un instituto.
 
      ![image](https://github.com/user-attachments/assets/fc4e8d29-d00b-46dd-ba60-3ab2748fe3e2)
 
+     Modificación del fichero hosts:
+
+     ![image](https://github.com/user-attachments/assets/1f514793-a9b2-4a89-bc04-f94af106b3ba)
+
 
 4. **Instalación y Configuración de WordPress**.
    - Configura WordPress en `centro.intranet`.
   
      <br>
 
-5. **Activación del módulo WSGI**:
+     Instalación de wordpress:
+
+     ![image](https://github.com/user-attachments/assets/101b319b-fc6b-4ff9-b908-0f55e3aec328)
+
+     Descomprimimos la carpeta:
+
+     ![image](https://github.com/user-attachments/assets/fcd30977-511b-40fa-b09c-97b6d88e1559)
+
+     Movemos el contenido de la carpeta a /var/www/centro.intranet:
+
+     ![image](https://github.com/user-attachments/assets/051c4fc7-9d44-4f9a-baff-3448c1680cf8)
+
+     Eliminamos la carpeta de wordpress:
+
+     ![image](https://github.com/user-attachments/assets/a63c4f7a-4893-4eb4-ad17-6713cc125de2)
+
+     Configuramos el virtualhost:
+
+     ![image](https://github.com/user-attachments/assets/b04b91e9-3c95-4e79-bac6-f775913d70bd)
+
+     Habilitamos el virtualhost:
+
+     ![image](https://github.com/user-attachments/assets/d71b8e20-a4e5-48af-ac58-227615f6657a)
+  
+     Reiniciamos Apache:
+  
+     ![image](https://github.com/user-attachments/assets/3109d2fa-aa77-4e12-aaf0-99d1e507514f)
+
+     Accedemos a centro.intranet:
+
+     ![image](https://github.com/user-attachments/assets/5e4573f1-04e9-49cb-8abc-6e41ce94825d)
+
+
+6. **Activación del módulo WSGI**:
    - Habilitar el módulo `wsgi` en Apache para permitir la ejecución de aplicaciones en Python.
   
      <br>
 
-6. **Despliegue de una Aplicación Python**.
+7. **Despliegue de una Aplicación Python**.
    - Crea y despliega una pequeña aplicación en Python en `departamentos.centro.intranet` para verificar su correcto funcionamiento.
    - Añadir autenticación para proteger el acceso a la aplicación Python.
   
      <br>
 
-7. **Instalación y configuración de Awstat**.
+8. **Instalación y configuración de Awstat**.
    - Configura Awstat para analizar el tráfico del servidor.
   
      <br>
 
-8. **Configuración de un segundo servidor web**:
+9. **Configuración de un segundo servidor web**:
    - Instalar y configurar un segundo servidor (Nginx o Lighttpd) bajo el dominio `servidor2.centro.intranet`.
    - Configurarlo para servir en el puerto `8080`.
    - Habilitar PHP en el servidor y añadir `phpMyAdmin`.
