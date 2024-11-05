@@ -88,7 +88,7 @@ Configura WordPress en `centro.intranet`.
 #### Ya podemos instalar WordPress:
 ![Instalación de WordPress completada](https://github.com/user-attachments/assets/40323c20-7c25-410b-afe4-80a6696a90a6)
 
-#### Pantalla de creación de `wp-config.php`:
+#### En el siguiente paso te pide que copies un contenido al archivo wp-config.php, en los archivos de wordpress hay uno llamado wp-config-sample.php, suyo objetivo es ser la plantilla del archivo wp-config.php:
 ![Crear wp-config.php](https://github.com/user-attachments/assets/199285e2-7710-40bf-a7bf-a918fe1e146c)
 
 #### Modificamos el contenido del archivo `wp-config.php`:
