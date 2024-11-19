@@ -1,4 +1,4 @@
-<p align="center">
+<p>
   <img src="https://github.com/user-attachments/assets/92b13dd5-01d7-4f83-8bb6-e218dfb11235" alt="Descripción de la imagen"/>
 </p>
 
@@ -108,11 +108,43 @@ Configura WordPress en `centro.intranet`.
 ### 4. Activación del módulo WSGI
 Habilitar el módulo `wsgi` en Apache para permitir la ejecución de aplicaciones en Python.
 
+Creamos el directorio para departamentos.centro.intranet en /var/www y habilitamos el módulo wsgi:
+
+![image](https://github.com/user-attachments/assets/66762bde-aa45-4b8d-9c08-06bb7962f3c0)
+
+Comprobamos que el módulo wsgi está activado:
+
+![image](https://github.com/user-attachments/assets/1656a168-199a-461f-adbf-f0786796b948)
+
+Configuramos el virtualhost:
+
+![image](https://github.com/user-attachments/assets/ddc7a29b-043a-4011-b25f-c0a7d7ea734b)
+
+Habilitamos el virtualhost:
+
+![image](https://github.com/user-attachments/assets/c622336a-de6b-4219-a43a-6e2187f63ea2)
+
+Creamos el archivo python:
+
+![image](https://github.com/user-attachments/assets/2212ac30-a4d0-48ea-9f4f-7b8948a1c61f)
+
+Reiniciamos apache:
+
+![image](https://github.com/user-attachments/assets/2f95ec0a-01ad-422c-96c7-1d7782f4a820)
+
 ---
 
 ### 5. Despliegue de una Aplicación Python
 - Crea y despliega una pequeña aplicación en Python en `departamentos.centro.intranet` para verificar su correcto funcionamiento.
 - Añadir autenticación para proteger el acceso a la aplicación Python.
+
+Accedemos a departamentos.centro.intranet para verificar el funcionamiento del archivo python creado en el apartado anterior:
+
+![image](https://github.com/user-attachments/assets/a73e620f-9ed7-4a04-b76e-17d715cc7879)
+
+Autenticación para protegeer el acceso a la aplicación (uso de contraseñas):
+
+
 
 ---
 
