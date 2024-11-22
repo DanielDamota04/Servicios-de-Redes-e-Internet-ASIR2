@@ -1,4 +1,4 @@
-<p>
+![image](https://github.com/user-attachments/assets/17ce769f-2027-4f37-bf1a-d3f43719627d)![image](https://github.com/user-attachments/assets/084efa59-6883-4bc0-85d6-23ef0590bd9f)<p>
   <img src="https://github.com/user-attachments/assets/92b13dd5-01d7-4f83-8bb6-e218dfb11235" alt="Descripción de la imagen"/>
 </p>
 
@@ -142,9 +142,27 @@ Accedemos a departamentos.centro.intranet para verificar el funcionamiento del a
 
 ![image](https://github.com/user-attachments/assets/a73e620f-9ed7-4a04-b76e-17d715cc7879)
 
-Autenticación para protegeer el acceso a la aplicación (uso de contraseñas):
+Autenticación para proteger el acceso a la aplicación (uso de contraseñas):
 
+Para empezar creamos un archivo para  guardar los usuarios y contraseñas en un lugar no accesible fuera del equipo:
 
+![image](https://github.com/user-attachments/assets/e49cb8e7-aa79-43f4-8e61-c7d480c46bc4)
+
+Creamos los usuarios y contraseñas los cuales se autenticarán:
+
+![image](https://github.com/user-attachments/assets/76ac95fa-7138-44cd-a912-f2bd8e01f932)
+
+Configuramos el virtualhost de departamentos.centro.intranet:
+
+![image](https://github.com/user-attachments/assets/9a4831de-163f-4160-85bb-26fbacdc9a39)
+
+Intentamos acceder a departamentos.centro.intranet y nos pedirá el usuario:
+
+![image](https://github.com/user-attachments/assets/ed654dac-6ba4-4202-b653-81ed2121a6b8)
+
+Introducimos las credenciales y podemos acceder
+
+![image](https://github.com/user-attachments/assets/cd6066bd-a856-4960-a5c1-27cabb100646)
 
 ---
 
