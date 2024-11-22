@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/17ce769f-2027-4f37-bf1a-d3f43719627d)![image](https://github.com/user-attachments/assets/084efa59-6883-4bc0-85d6-23ef0590bd9f)<p>
+<p>
   <img src="https://github.com/user-attachments/assets/92b13dd5-01d7-4f83-8bb6-e218dfb11235" alt="Descripción de la imagen"/>
 </p>
 
