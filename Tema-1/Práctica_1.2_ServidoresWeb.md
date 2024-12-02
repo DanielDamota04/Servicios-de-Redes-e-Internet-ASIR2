@@ -219,19 +219,9 @@ Habilitamos la configuración y reiniciamos apache:
 
 ![image](https://github.com/user-attachments/assets/3dc72067-cace-49e0-9b23-5066dd1b0bba)
 
+Accedemos a la ruta de awstats en el navegador y ya podemos visualizar las estadísticas:
 
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/user-attachments/assets/20f26a61-90d3-47f5-84f4-2687d72523f8)
 
 ---
 
@@ -239,6 +229,8 @@ Habilitamos la configuración y reiniciamos apache:
 - Instalar y configurar un segundo servidor (Nginx o Lighttpd) bajo el dominio `servidor2.centro.intranet`.
 - Configurarlo para servir en el puerto `8080`.
 - Habilitar PHP en el servidor y añadir phpMyAdmin.
+
+  
 
 ---
 
