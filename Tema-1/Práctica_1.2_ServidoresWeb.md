@@ -169,6 +169,70 @@ Introducimos las credenciales y podemos acceder
 ### 6. Instalación y configuración de Awstat
 Configura Awstat para analizar el tráfico del servidor.
 
+Instalamos awstats:
+
+![image](https://github.com/user-attachments/assets/8a53b70f-4210-4102-bd4c-7afe5eeeb15c)
+
+Activamos el módulo cgi:
+
+![image](https://github.com/user-attachments/assets/3ba4977a-acc2-4543-a3e6-5793134fd89f)
+
+Reiniciamos apache:
+
+![image](https://github.com/user-attachments/assets/b343c86e-6bbd-4e38-9099-1047e7e042da)
+
+Ahora configuramos awstats para el dominio de centro.intranet:
+
+![image](https://github.com/user-attachments/assets/72cdca78-cf7c-42d8-a811-323071218b3e)
+
+Elegimos el dominio y el host:
+
+![image](https://github.com/user-attachments/assets/b707d3fe-8577-4dca-bc32-a01f67c42e10)
+
+Activamos que se actualicen las estadísticas:
+
+![image](https://github.com/user-attachments/assets/3c65a7e9-ca70-4a5d-86c8-ed8114747401)
+
+Generamos las primeras estadísticas:
+
+![image](https://github.com/user-attachments/assets/946b3ea6-f9f9-4522-9736-df501b909318)
+
+Realizamos la configuración para apache y asignamos permisos:
+
+![image](https://github.com/user-attachments/assets/f4cbf009-65bf-4630-946d-335d2f118394)
+
+![image](https://github.com/user-attachments/assets/513e2d23-cf5b-408e-9380-d201407aaa16)
+
+![image](https://github.com/user-attachments/assets/d96e3492-b9ae-4658-b53b-825d5c3c17bf)
+
+Modificamos la configuración de awstats dentro de apache:
+
+![image](https://github.com/user-attachments/assets/63f2d2de-c109-4386-94cb-850b5d70a36c)
+
+Agregamos lo siguiente:
+
+![image](https://github.com/user-attachments/assets/da818292-bdb5-4425-9140-53e3f6379820)
+
+Habilitamos la configuración y reiniciamos apache:
+
+![image](https://github.com/user-attachments/assets/e02783c4-6a28-436c-89ce-f623cfc2f76c)
+
+![image](https://github.com/user-attachments/assets/3dc72067-cace-49e0-9b23-5066dd1b0bba)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 
 ### 7. Configuración de un segundo servidor web
