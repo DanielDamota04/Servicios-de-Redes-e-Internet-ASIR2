@@ -230,6 +230,37 @@ Accedemos a la ruta de awstats en el navegador y ya podemos visualizar las estad
 - Configurarlo para servir en el puerto `8080`.
 - Habilitar PHP en el servidor y añadir phpMyAdmin.
 
+  Creamos la carpeta para el dominio en /var/www:
+
+  ![image](https://github.com/user-attachments/assets/adc8a14d-7153-4cb7-b9d9-fb4faf07ccdb)
+
+  Instalamos Lighttpd:
+
+  ![image](https://github.com/user-attachments/assets/5bce9239-b34f-4739-8837-d5e6d07bb9a4)
+
+  Activamos lighttpd:
+
+  ![image](https://github.com/user-attachments/assets/132e2adc-a879-47ad-bda5-41db7f20ac1f)
+
+  Configuramos el puerto de escucha en el 8080:
+
+  ![image](https://github.com/user-attachments/assets/57f71a6c-b262-410b-8ce9-2eee542f9730)
+  
+  ![image](https://github.com/user-attachments/assets/674ab66b-852c-44c3-a6ef-631c69eba552)
+
+  Reiniciamos lighttpd y visualizamos su página por defecto para comprobar el funcionamiento:
+
+  ![image](https://github.com/user-attachments/assets/cdc73a0b-cba2-4e28-890e-e9440b236e77)
+
+  ![image](https://github.com/user-attachments/assets/9ca2ba5d-d3b0-4845-a482-b545be3a93ce)
+
+  Creamos el archivo de configuración del virtualhost:
+
+  
+
+
+
+
   
 
 ---
