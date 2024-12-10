@@ -292,11 +292,9 @@ Accedemos a la ruta de awstats en el navegador y ya podemos visualizar las estad
 
   ![image](https://github.com/user-attachments/assets/d334b95a-6471-4547-8437-454f88a51c6e)
 
-  Ahora accedemos a servidor2.centro.intranet:8080/phpmyadmin:
+  Ahora ya podemos acceder a servidor2.centro.intranet:8080/phpmyadmin:
 
   ![image](https://github.com/user-attachments/assets/6cf3446c-d1b3-4601-8e6a-faabe3d7bbbd)
-
-
 
 ---
 
