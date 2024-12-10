@@ -234,11 +234,15 @@ Accedemos a la ruta de awstats en el navegador y ya podemos visualizar las estad
 
   ![image](https://github.com/user-attachments/assets/adc8a14d-7153-4cb7-b9d9-fb4faf07ccdb)
 
+  Añadimos el dominio y la ip 127.0.0.1 en /etc/hosts:
+
+  ![image](https://github.com/user-attachments/assets/43b9c5f7-d609-45b5-84e3-7525c2d2f9f2)
+
   Instalamos Lighttpd:
 
   ![image](https://github.com/user-attachments/assets/5bce9239-b34f-4739-8837-d5e6d07bb9a4)
 
-  Activamos lighttpd:
+  Activamos Lighttpd:
 
   ![image](https://github.com/user-attachments/assets/132e2adc-a879-47ad-bda5-41db7f20ac1f)
 
@@ -254,14 +258,45 @@ Accedemos a la ruta de awstats en el navegador y ya podemos visualizar las estad
 
   ![image](https://github.com/user-attachments/assets/9ca2ba5d-d3b0-4845-a482-b545be3a93ce)
 
-  Creamos el archivo de configuración del virtualhost:
+  Creamos el archivo de configuración del virtualhost en /etc/lighttpd/conf-available:
 
+  ![image](https://github.com/user-attachments/assets/193527fe-ac64-4d8a-8699-bb03eab2b13b)
+
+  ![image](https://github.com/user-attachments/assets/30faec31-3512-4364-8d6c-a4e2300897f7)
   
+  Activamos la configuración de virtualhost:
+
+  ![image](https://github.com/user-attachments/assets/568d1f3e-2e68-4837-9f3f-f7839e4ff973)
+
+  Añadimos un index.html para ver si podemos visualizar el contenido:
+
+  ![image](https://github.com/user-attachments/assets/b88390fb-88b5-41de-98ca-69a305f770dd)
+
+  Accedemos al dominio desde el navegador:
+
+  ![image](https://github.com/user-attachments/assets/7eb8b289-11c4-42c7-9f3b-c03e6ba42099)
+
+  Instalamos phpmyadmin:
+
+  ![image](https://github.com/user-attachments/assets/025bc409-7dc0-4ca8-9b88-30b6a86797e0)
+
+  Instalamos php-cgi:
+
+  ![image](https://github.com/user-attachments/assets/23df6134-51b3-458a-826b-0e8d59f72afe)
+
+  Habilitamos los módulos de fast-cgi:
+
+  ![image](https://github.com/user-attachments/assets/b4eb8d0c-534a-4a8b-b3f8-f8923ba5fbfb)
+
+  Creamos un enlace entre la carpeta phpmyadmin y la carpeta del dominio:
+
+  ![image](https://github.com/user-attachments/assets/d334b95a-6471-4547-8437-454f88a51c6e)
+
+  Ahora accedemos a servidor2.centro.intranet:8080/phpmyadmin:
+
+  ![image](https://github.com/user-attachments/assets/6cf3446c-d1b3-4601-8e6a-faabe3d7bbbd)
 
 
-
-
-  
 
 ---
 
