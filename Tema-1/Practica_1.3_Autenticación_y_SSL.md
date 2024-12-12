@@ -11,16 +11,16 @@ Configurar la autenticación y encriptación de una página apache
 
 ---
 
-### Autenticación
+## Autenticación
 
-1. Intalación del servidor LAMP:
+### 1. Intalación del servidor LAMP:
 
 ```apt-get install apache2 php7.0 libaprutil1-dbd-mysql -y```
 
 ![image](https://github.com/user-attachments/assets/20aa1cf6-00a2-4063-a425-462cb8c2624c)
 
 
-2. Instalación de MYSQL:
+### 2. Instalación de MYSQL:
 
 ```apt-get update -y```
 ```apt-get install mariadb-server mariadb-client -y```
@@ -28,7 +28,7 @@ Configurar la autenticación y encriptación de una página apache
 ![image](https://github.com/user-attachments/assets/3e486a09-cb01-470b-90d0-cfc01e8066a6)
 
 
-3. Activación de los servicios:
+### 3. Activación de los servicios:
 
 ```systemctl start apache2```
 ```systemctl start mysql```
@@ -37,7 +37,7 @@ Configurar la autenticación y encriptación de una página apache
 
 ![image](https://github.com/user-attachments/assets/4fb7d718-66ee-45c5-9e46-bb41d72e7543)
 
-4. Configuración de la base de datos:
+### 4. Configuración de la base de datos:
 
 Iniciar como root:
 
@@ -87,7 +87,55 @@ Introducimos los datos del usuario con la contraseña encriptada:
 
 ![image](https://github.com/user-attachments/assets/4e8d2cdd-b447-4f47-b246-05c395f4d09f)
 
-5. Configuración de apache
+### 5. Configuración de apache
+
+Activamos los módulos necesarios:
+
+```a2enmod dbd ```
+```a2enmod authn_dbd ```
+```a2enmod socache_shmcb ```
+```a2enmod authn_socache ```
+
+![image](https://github.com/user-attachments/assets/2a18cf9c-23f3-4a54-9041-9269b26d554f)
+
+Creamos el recurso protegido en /var/www/html:
+
+```mkdir /var/www/html/protecteddir```
+```chown -R www-data:www-data /var/www/html/protecteddir```
+
+![image](https://github.com/user-attachments/assets/dd9a9208-473e-4f94-b82f-8879528a7d5d)
+
+Modificamos el archivo de configuración por defecto de sites-available:
+
+```nano /etc/apache2/sites-available/000-default.conf```
+
+![image](https://github.com/user-attachments/assets/9155fc11-aff9-4dbe-ab9d-e1254afe510b)
+
+Reiniciamos apache y comprobamos el funcionamiento:
+
+![image](https://github.com/user-attachments/assets/2f5919c0-adaf-4c30-aec7-4cffb5c92fa2)
+
+![image](https://github.com/user-attachments/assets/962095dc-5734-4487-8305-6ff368604d92)
+
+![image](https://github.com/user-attachments/assets/c79e2bb7-a85d-4b52-b037-145ec8be733f)
+
+<br>
+
+## SSL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
