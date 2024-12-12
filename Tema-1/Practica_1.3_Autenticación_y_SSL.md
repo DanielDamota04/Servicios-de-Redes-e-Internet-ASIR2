@@ -17,10 +17,16 @@ Configurar la autenticación y encriptación de una página apache
 
 ```apt-get install apache2 php7.0 libaprutil1-dbd-mysql -y```
 
+![image](https://github.com/user-attachments/assets/20aa1cf6-00a2-4063-a425-462cb8c2624c)
+
+
 2. Instalación de MYSQL:
 
 ```apt-get update -y```
 ```apt-get install mariadb-server mariadb-client -y```
+
+![image](https://github.com/user-attachments/assets/3e486a09-cb01-470b-90d0-cfc01e8066a6)
+
 
 3. Activación de los servicios:
 
@@ -29,32 +35,68 @@ Configurar la autenticación y encriptación de una página apache
 ```systemctl enable apache2```
 ```systemctl enable mysql```
 
+![image](https://github.com/user-attachments/assets/4fb7d718-66ee-45c5-9e46-bb41d72e7543)
+
 4. Configuración de la base de datos:
 
 Iniciar como root:
 
 ```mysql -u root -p```
 
+![image](https://github.com/user-attachments/assets/16137335-f010-4bde-bdec-d4eff993e09c)
+
 Crear la base de datos:
 
 ```create database defaultsite_db; ```
 
+![image](https://github.com/user-attachments/assets/86a82f60-9411-4da6-afb3-6204f6495ff1)
+
 Damos privilegios a sobre la base de datos al usuario administrador:
 
 ```GRANT SELECT, INSERT, UPDATE, DELETE ON defaultsite_db.* TO 'defaultsite_admin'@'localhost' IDENTIFIED BY 'password';```
+
 ```GRANT SELECT, INSERT, UPDATE, DELETE ON defaultsite_db.* TO 'defaultsite_admin'@'localhost.localdomain' IDENTIFIED BY 'password';```
+
+![image](https://github.com/user-attachments/assets/63baeda9-4210-4eb8-90bf-806bb3210b45)
+
+![image](https://github.com/user-attachments/assets/203b6e56-dfb9-4449-9b82-b30c65a45ec0)
 
 Actualizamos los privilegios:
 
 ```flush privileges;```
 
+![image](https://github.com/user-attachments/assets/1299c732-4b9d-4e61-bdff-7016bcafb54a)
+
 Creamos la tabla que almacenará los datos de autenticación:
 
 ```use defaultsite_db;```
 
+![image](https://github.com/user-attachments/assets/345daab3-0151-4720-8f4a-67585b17660a)
+
 Introducimos los datos del usuario con la contraseña encriptada:
 
 ```htpasswd -bns siteuser siteuser```
+
+```create table mysql_auth ( username varchar(191) not null, passwd varchar(191), groups varchar(191), primary key (username) );```
+
+```INSERT INTO `mysql_auth` (`username`, `passwd`, `groups`) VALUES('siteuser', '{SHA}tk7HEH6Wo7SKT6+3FHCgiGnJ6dA=', 'sitegroup'); ```
+
+![image](https://github.com/user-attachments/assets/7800439a-50d5-4aad-a57f-9d579db61947)
+
+![image](https://github.com/user-attachments/assets/6267c553-747d-46c3-9542-61042629b733)
+
+![image](https://github.com/user-attachments/assets/4e8d2cdd-b447-4f47-b246-05c395f4d09f)
+
+5. Configuración de apache
+
+
+
+
+
+
+
+
+
 
 
 
