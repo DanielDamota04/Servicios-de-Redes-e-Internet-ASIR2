@@ -22,7 +22,8 @@ de 2ºASIR
 | Práctica           | Descripción                                           |
 |--------------------|-------------------------------------------------------|
 | [Práctica 1](Tema-1/Práctica_1.1_ScriptsApache.md) | Scripts básicos para facilitar tareas en Apache      |
-| [Práctica 2](Tema-1/Práctica_1.2_ServidoresWeb.md) | Trabajo final del primer trimestre - Apache en un Instituto   |
+| [Práctica 2](Tema-1/Práctica_1.2_ServidoresWeb.md) | Trabajo de virtualhosting (Trabajo Final Primer Trimestre) - Apache en un Instituto   |
+| [Práctica 3](Tema-1/Práctica_1.3_Autenticación_y_SSL.md) | Autenticación y encriptación de la comunicación para aumento de seguridad   |
 
 
 ---
