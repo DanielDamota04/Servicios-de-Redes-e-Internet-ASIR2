@@ -123,6 +123,20 @@ Reiniciamos apache y comprobamos el funcionamiento:
 
 ## SSL
 
+1. Activar el módulo ssl:
+
+```a2enmod ssl ```
+
+```systemctl restart apache2 ```
+
+![image](https://github.com/user-attachments/assets/7535855f-4e69-4956-82f6-6d9387042c50)
+
+2. Crear el certificado ssl:
+
+![image](https://github.com/user-attachments/assets/ff28122e-d4cc-4933-8fd5-644ea7f0e9d1)
+
+
+
 
 
 
