@@ -135,6 +135,17 @@ Reiniciamos apache y comprobamos el funcionamiento:
 
 ![image](https://github.com/user-attachments/assets/ff28122e-d4cc-4933-8fd5-644ea7f0e9d1)
 
+3. Configurar apache para usar ssl:
+
+```sudo nano /etc/apache2/sites-available/default-ssl.conf```
+
+![image](https://github.com/user-attachments/assets/752f1056-c9b5-4e4b-a866-3d9df1d3fb16)
+
+
+
+
+
+
 
 
 
