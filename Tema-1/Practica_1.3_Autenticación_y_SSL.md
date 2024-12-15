@@ -141,6 +141,19 @@ Reiniciamos apache y comprobamos el funcionamiento:
 
 ![image](https://github.com/user-attachments/assets/752f1056-c9b5-4e4b-a866-3d9df1d3fb16)
 
+4. Activamos la configuración y comprobamos el funcionamiento: (Para confiar en la página hay que instalar el certificado)
+
+```a2ensite default-ssl.conf```
+
+![{67412A6E-4A2E-42E7-A34A-AFFB4EC60F68}](https://github.com/user-attachments/assets/b613f902-4cd5-43b6-89a5-792a2d23f02c)
+
+![{A105B561-C647-4B07-87E3-65DF75F971D5}](https://github.com/user-attachments/assets/3de58add-17f4-487c-a061-dffb921c305c)
+
+![{FFF26439-8747-4340-85B0-E1D9CCC08307}](https://github.com/user-attachments/assets/bc19a044-02c7-4f7a-b4d5-ae5c8bf3efa1)
+
+
+
+
 
 
 
