@@ -11,8 +11,9 @@
 Instalar y configurar bin9 en primer lugar como servidor caché y por último como forwarding. 
 
 En ambos casos debes:
-Comprobar la sintaxis del archivo de configuración (named-checkconf)
-Visualizar el archivo log y comprueba que responde adecuadamente (/var/log/syslog)
+
+- Comprobar la sintaxis del archivo de configuración (named-checkconf)
+- Visualizar el archivo log y comprueba que responde adecuadamente (/var/log/syslog)
 
 ---
 
