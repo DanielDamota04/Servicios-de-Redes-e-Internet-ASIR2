@@ -17,8 +17,22 @@ En ambos casos debes:
 
 ---
 
-## Autenticación
+### 1. Bind9 como servidor caché 
 
-### 1. Intalación de bind9:
+Instalamos Bind9:
 
-``````
+```
+sudo apt install bind9 bind9utils bind9-doc
+```
+
+Entramos al fichero de configuración:
+
+```
+cd /etc/bind
+```
+
+```
+sudo nano named.conf.options
+```
+
+
