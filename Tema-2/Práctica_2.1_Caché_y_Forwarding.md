@@ -63,6 +63,16 @@ options {
 
 ![image](https://github.com/user-attachments/assets/73bcf5e0-2a04-41ea-bbd6-d23bb28e063b)
 
+En la máquina cliente ponemos de DNS la ip del equipo con el servicio bind9 y realizamos una consulta:
+
+![image](https://github.com/user-attachments/assets/26fff7e9-84a9-470e-8aae-b82acd4f2c6c)
+
+![image](https://github.com/user-attachments/assets/44c8c27c-cb41-445d-85da-780bc78c7811)
+
+
+
+
+
 
 
 
