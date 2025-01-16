@@ -8,7 +8,7 @@
 
 ## 🎯 Objetivo
 
-Instalar y configurar bin9 en primer lugar como servidor caché y por último como forwarding. 
+Instalar y configurar bin9 en primer lugar como servidor caché y con forwarding a los dns de google. 
 
 En ambos casos debes:
 
@@ -17,7 +17,7 @@ En ambos casos debes:
 
 ---
 
-### 1. Bind9 como servidor caché 
+### 1. Bind9 como servidor caché y forwarding
 
 Instalamos Bind9:
 
@@ -68,6 +68,7 @@ En la máquina cliente ponemos de DNS la ip del equipo con el servicio bind9 y r
 ![image](https://github.com/user-attachments/assets/26fff7e9-84a9-470e-8aae-b82acd4f2c6c)
 
 ![image](https://github.com/user-attachments/assets/44c8c27c-cb41-445d-85da-780bc78c7811)
+
 
 
 
