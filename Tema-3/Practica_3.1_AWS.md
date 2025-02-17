@@ -111,6 +111,35 @@ Reiniciamos apache2:
 
 ![image](https://github.com/user-attachments/assets/610b012b-2b12-405f-bb84-1f0db7938e72)
 
+---
+
+### 4. Creación de la base de datos
+
+Vamos al apartado de RDS:
+
+![image](https://github.com/user-attachments/assets/23d3907e-1977-4e7b-81c2-9e76e75e8927)
+
+Creamos la base de datos:
+
+![image](https://github.com/user-attachments/assets/89bcd943-7ace-4ccd-be20-91a89bbc14f6)
+
+Asignamos el tipo de base de datos MYSQL:
+
+![image](https://github.com/user-attachments/assets/f854e409-cd44-4a56-a8ad-72f4043e6d2a)
+
+Elegimos la capa gratuita:
+
+![image](https://github.com/user-attachments/assets/480e0564-9077-458f-b2da-c3eaa1b7b843)
+
+Elegimos las credenciales del administrador y que sea autoadministrado:
+
+![image](https://github.com/user-attachments/assets/0bea2caa-4534-4acb-96b4-3aac655bcd18)
+
+Asignamos la configuracion de la instancia y almacenamiento:
+
+![image](https://github.com/user-attachments/assets/47db4e81-4a2e-4706-9a95-2eceae867b4e)
+
+
 
 
 
