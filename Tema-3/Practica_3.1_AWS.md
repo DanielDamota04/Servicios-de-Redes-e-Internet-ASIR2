@@ -73,6 +73,35 @@ Creamos la máquina:
 
 ![image](https://github.com/user-attachments/assets/ce3e4f62-785f-48f0-ad78-2175ab15ddb8)
 
+---
+
+### 3. Instalación de Apache y php en la instancia EC2
+
+Instalamos la clave ppk para conexión con la máquina EC2:
+
+![image](https://github.com/user-attachments/assets/6a60003e-d175-43e2-b563-eef4bb690b51)
+
+Copiamos el nombre DNS de la máquina:
+
+![image](https://github.com/user-attachments/assets/909a9cac-583b-4c7a-a058-ef2d23d0d5c8)
+
+Conectamos con ssh por Putty:
+
+![image](https://github.com/user-attachments/assets/52a384af-b49f-4dc2-83af-bebd4ca772bf)
+
+![image](https://github.com/user-attachments/assets/24ef63ff-ec51-4b3d-b1f2-0844acc4a689)
+
+Nos conectamos con el usuario Ubuntu:
+
+![image](https://github.com/user-attachments/assets/c17a099d-fc8b-4df8-959a-6d41f49f59de)
+
+
+
+
+
+
+
+
 
 
 
