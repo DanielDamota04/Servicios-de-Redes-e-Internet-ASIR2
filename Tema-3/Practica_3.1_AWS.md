@@ -159,7 +159,24 @@ Configuramos la conexión con la instancia EC2:
 
 ### 5. Creación de sistema de archivos EFS
 
-Vami
+Vamos al apartado de EFS:
+
+![image](https://github.com/user-attachments/assets/df0d90a9-7b3c-4d1e-a892-9f5aed570317)
+
+Creamos el EFS:
+
+![image](https://github.com/user-attachments/assets/83a0afc3-6a5e-42ef-80d9-dca3ae38be53)
+
+![image](https://github.com/user-attachments/assets/c46c9e14-b6c4-456d-afc9-509efc6e20e5)
+
+Asignamos la regla de entrada NFS al grupo de seguridad al que se unen el EFS, el RDS y el EC2:
+
+![image](https://github.com/user-attachments/assets/5f6509ef-ae48-434d-9943-32de88730ec4)
+
+
+
+
+
 
 
 
