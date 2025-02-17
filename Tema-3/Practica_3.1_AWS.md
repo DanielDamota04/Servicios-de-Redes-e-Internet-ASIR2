@@ -9,7 +9,7 @@
 
 ## 🎯 Objetivo
 
-Instalación de Wordpress en instancia Debian EC2 con soporte de base de datos RDS y EFS
+Instalación de Wordpress en instancia Ubuntu EC2 con soporte de base de datos RDS y EFS
 
 ---
 
@@ -68,6 +68,11 @@ La asignamos a la VPC y subred publica 1:
 Creamos las reglas de firewall:
 
 ![image](https://github.com/user-attachments/assets/f682c494-678c-4f56-9747-913a864cf23d)
+
+Creamos la máquina:
+
+![image](https://github.com/user-attachments/assets/ce3e4f62-785f-48f0-ad78-2175ab15ddb8)
+
 
 
 
