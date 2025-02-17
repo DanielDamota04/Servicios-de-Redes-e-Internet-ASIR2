@@ -15,27 +15,27 @@ de 2ºASIR
 
 | Práctica           | Descripción                                               |
 |--------------------|-----------------------------------------------------------|
-| [Práctica 1](Tema-0/Actividad-de-introducción.pdf) | Ejercicios básicos sobre servidores web y protocolos |
+| [Práctica 0](Tema-0/Actividad-de-introducción.pdf) | Ejercicios básicos sobre servidores web y protocolos |
 
 ### Tema 1 - Servidores Web
 
 | Práctica           | Descripción                                           |
 |--------------------|-------------------------------------------------------|
-| [Práctica 1](Tema-1/Práctica_1.1_ScriptsApache.md) | Scripts básicos para facilitar tareas en Apache      |
-| [Práctica 2](Tema-1/Práctica_1.2_ServidoresWeb.md) | Trabajo de virtualhosting (Trabajo Final Primer Trimestre) - Apache en un Instituto   |
-| [Práctica 3](Tema-1/Practica_1.3_Autenticación_y_SSL.md) | Autenticación SQL y encriptación con SSL  |
+| [Práctica 1.1](Tema-1/Práctica_1.1_ScriptsApache.md) | Scripts básicos para facilitar tareas en Apache      |
+| [Práctica 1.2](Tema-1/Práctica_1.2_ServidoresWeb.md) | Trabajo de virtualhosting (Trabajo Final Primer Trimestre) - Apache en un Instituto   |
+| [Práctica 1.3](Tema-1/Practica_1.3_Autenticación_y_SSL.md) | Autenticación SQL y encriptación con SSL  |
 
 ### Tema 2 - Servidores DNS
 
 | Práctica           | Descripción                                           |
 |--------------------|-------------------------------------------------------|
-| [Práctica 1](Tema-2/Práctica_2.1_Caché_y_Forwarding.md) | Configuración de Bind9 caché y forwarding de peticiones DNS|
+| [Práctica 2.1](Tema-2/Práctica_2.1_Caché_y_Forwarding.md) | Configuración de Bind9 caché y forwarding de peticiones DNS|
 
 ### Tema 3 - Amazon Web Services
 
 | Práctica           | Descripción                                           |
 |--------------------|-------------------------------------------------------|
-| [Práctica 1](Tema-3/Practica_3.1_AWS.md) | Instalación de wordpress en una máquina EC2 con conexión a RDS Y EFS|
+| [Práctica 3.1](Tema-3/Practica_3.1_AWS.md) | Instalación de wordpress en una máquina EC2 con conexión a RDS Y EFS|
 
 ---
 
