@@ -31,7 +31,11 @@ de 2ºASIR
 |--------------------|-------------------------------------------------------|
 | [Práctica 1](Tema-2/Práctica_2.1_Caché_y_Forwarding.md) | Configuración de Bind9 caché y forwarding de peticiones DNS|
 
+### Tema 3 - Amazon Web Services
 
+| Práctica           | Descripción                                           |
+|--------------------|-------------------------------------------------------|
+| [Práctica 1](Tema-3/Practica_3.1_AWS.md) | Instalación de wordpress en una máquina EC2 con conexión a RDS Y EFS|
 
 ---
 
