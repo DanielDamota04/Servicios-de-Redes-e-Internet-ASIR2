@@ -139,6 +139,15 @@ Asignamos la configuracion de la instancia y almacenamiento:
 
 ![image](https://github.com/user-attachments/assets/47db4e81-4a2e-4706-9a95-2eceae867b4e)
 
+Configuramos la conectividad de la base de datos:
+
+![image](https://github.com/user-attachments/assets/b9ca6771-9ce7-4ab0-a414-4b1360e1c477)
+
+![image](https://github.com/user-attachments/assets/0c13e16d-295f-4e2e-9367-f90c61594448)
+
+Creamos la base de datos:
+
+![image](https://github.com/user-attachments/assets/e83bd56b-2447-45ff-bcb3-b675287092eb)
 
 
 
