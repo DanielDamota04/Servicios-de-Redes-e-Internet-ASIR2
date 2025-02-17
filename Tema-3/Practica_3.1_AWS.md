@@ -147,7 +147,23 @@ Configuramos la conectividad de la base de datos:
 
 Creamos la base de datos:
 
-![image](https://github.com/user-attachments/assets/e83bd56b-2447-45ff-bcb3-b675287092eb)
+![image](https://github.com/user-attachments/assets/7b944036-5bd0-454d-8bf6-8a37e2f6c146)
+
+Configuramos la conexión con la instancia EC2:
+
+![image](https://github.com/user-attachments/assets/a8628a74-9459-4abd-90e3-425009826ca5)
+
+![image](https://github.com/user-attachments/assets/b240d175-41cc-4313-bb2e-8d8ef5e7c217)
+
+![image](https://github.com/user-attachments/assets/c9c20f96-7a80-4bbc-9f45-4475d76f788d)
+
+### 5. Creación de sistema de archivos EFS
+
+Vami
+
+
+
+
 
 
 
