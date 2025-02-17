@@ -169,9 +169,10 @@ Creamos el EFS:
 
 ![image](https://github.com/user-attachments/assets/c46c9e14-b6c4-456d-afc9-509efc6e20e5)
 
-Asignamos la regla de entrada NFS al grupo de seguridad al que se unen el EFS, el RDS y el EC2:
+Asignamos la regla de entrada NFS y MYSQL al grupo de seguridad al que se unen el EFS, el RDS y el EC2:
 
-![image](https://github.com/user-attachments/assets/5f6509ef-ae48-434d-9943-32de88730ec4)
+![image](https://github.com/user-attachments/assets/1447877b-0751-4492-a115-874ca379bdbc)
+
 
 
 
