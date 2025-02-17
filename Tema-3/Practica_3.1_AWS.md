@@ -95,6 +95,23 @@ Nos conectamos con el usuario Ubuntu:
 
 ![image](https://github.com/user-attachments/assets/c17a099d-fc8b-4df8-959a-6d41f49f59de)
 
+Realizamos un update y upgrade:
+
+![image](https://github.com/user-attachments/assets/3440ad74-3ddb-4fe8-8335-a9d07db9dbbd)
+
+![image](https://github.com/user-attachments/assets/184e01d7-18a8-495a-b56b-4b25449007c8)
+
+Instalamos las apache y php:
+
+![image](https://github.com/user-attachments/assets/8789c5a9-25d2-45ad-a543-6a4db2f9f9aa)
+
+![image](https://github.com/user-attachments/assets/2cfc2b93-768b-47dc-8881-86d4aec8f550)
+
+Reiniciamos apache2:
+
+![image](https://github.com/user-attachments/assets/610b012b-2b12-405f-bb84-1f0db7938e72)
+
+
 
 
 
