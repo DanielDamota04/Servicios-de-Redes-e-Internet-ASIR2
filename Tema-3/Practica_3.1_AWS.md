@@ -216,10 +216,6 @@ Modificamos el contenido de wp-config.php:
 
 ![image](https://github.com/user-attachments/assets/f7e1cb16-07ab-4b9c-ab10-27cf5b045890)
 
-Ahora procedemos a la instalación de wordpress:
-
-![image](https://github.com/user-attachments/assets/6321370d-1145-4940-8b4d-6e45a6628ab6)
-
 Renombramos la carpeta wp-content a wp-content2:
 
 ![image](https://github.com/user-attachments/assets/be004cab-4271-4bab-9f59-de877a55666d)
@@ -236,8 +232,11 @@ Montamos el EFS en wp-content:
 
 ![image](https://github.com/user-attachments/assets/51678320-84cd-423e-a1e4-e748ad2a76c6)
 
+Instalamos wordpress:
 
+![image](https://github.com/user-attachments/assets/5289795b-575f-4386-b2c7-947c3475dea9)
 
+![image](https://github.com/user-attachments/assets/de7af036-acfc-40ed-bcff-408af693f011)
 
 
 
