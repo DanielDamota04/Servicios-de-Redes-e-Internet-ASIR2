@@ -228,9 +228,14 @@ Creamos de nuevo wp-content:
 
 ![image](https://github.com/user-attachments/assets/b0a81fbf-453e-492a-9d92-8dfb05f715bf)
 
-Metemos el contenido de wp-content2 en la nueva carpeta wp-content:
+Instalamos las dependencias de nfs:
 
-![image](https://github.com/user-attachments/assets/53dd1f47-73a6-44d7-95f6-76d3db8743cf)
+![image](https://github.com/user-attachments/assets/fa6a2374-a5af-4052-b1ca-566067233e43)
+
+Montamos el EFS en wp-content:
+
+![image](https://github.com/user-attachments/assets/51678320-84cd-423e-a1e4-e748ad2a76c6)
+
 
 
 
