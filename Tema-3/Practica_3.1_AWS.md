@@ -173,6 +173,25 @@ Asignamos la regla de entrada NFS y MYSQL al grupo de seguridad al que se unen e
 
 ![image](https://github.com/user-attachments/assets/1447877b-0751-4492-a115-874ca379bdbc)
 
+---
+
+### 6. Instalación de wordpress
+
+Descargamos el comprimido de wordpress:
+
+![image](https://github.com/user-attachments/assets/7ef1d219-254e-47ba-9602-e81e78413cd5)
+
+Extraemos el comprimido:
+
+![image](https://github.com/user-attachments/assets/09693aac-d578-4b8c-93bd-20848d3007fe)
+
+Instalamos el cliente MYSQL:
+
+![image](https://github.com/user-attachments/assets/a1e87270-a46f-42f3-bd91-346208d84bda)
+
+Nos conectamos a la base de datos:
+
+![image](https://github.com/user-attachments/assets/94b8b1d4-25aa-468a-99b7-ef0426e1d2b8)
 
 
 
