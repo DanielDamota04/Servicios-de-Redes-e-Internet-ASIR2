@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/0c040091-e85e-4a45-826d-4696e19c60d0)
 <p align="center">
   <img src="https://github.com/user-attachments/assets/92b13dd5-01d7-4f83-8bb6-e218dfb11235" alt="Descripción de la imagen"/>
 </p>
@@ -208,13 +208,29 @@ Vamos a la interfaz web de instalación de wordpress:
 
 ![image](https://github.com/user-attachments/assets/1b0747fa-e201-4eaf-9cae-7c892a616a1b)
 
-Cambiamos el nombre de wp-sa
+Copiamos el contenido de wp-config-sample.php a wp-config.php:
+
+![image](https://github.com/user-attachments/assets/98ae3ac4-3ae9-497e-8f5e-6385bfd21c6a)
 
 Modificamos el contenido de wp-config.php:
 
-![image](https://github.com/user-attachments/assets/e4bf6f5e-ba58-4b57-8dca-3719134109d2)
+![image](https://github.com/user-attachments/assets/f7e1cb16-07ab-4b9c-ab10-27cf5b045890)
 
+Ahora procedemos a la instalación de wordpress:
 
+![image](https://github.com/user-attachments/assets/6321370d-1145-4940-8b4d-6e45a6628ab6)
+
+Renombramos la carpeta wp-content a wp-content2:
+
+![image](https://github.com/user-attachments/assets/be004cab-4271-4bab-9f59-de877a55666d)
+
+Creamos de nuevo wp-content:
+
+![image](https://github.com/user-attachments/assets/b0a81fbf-453e-492a-9d92-8dfb05f715bf)
+
+Metemos el contenido de wp-content2 en la nueva carpeta wp-content:
+
+![image](https://github.com/user-attachments/assets/53dd1f47-73a6-44d7-95f6-76d3db8743cf)
 
 
 
