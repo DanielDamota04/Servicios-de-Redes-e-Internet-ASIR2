@@ -238,7 +238,9 @@ Instalamos wordpress:
 
 ![image](https://github.com/user-attachments/assets/de7af036-acfc-40ed-bcff-408af693f011)
 
+Nos autenticamos y accedemos:
 
+![image](https://github.com/user-attachments/assets/818a37c6-0d82-4d30-a2a5-d3a4d3602919)
 
 
 
