@@ -189,11 +189,30 @@ Instalamos el cliente MYSQL:
 
 ![image](https://github.com/user-attachments/assets/a1e87270-a46f-42f3-bd91-346208d84bda)
 
-Nos conectamos a la base de datos:
+Nos conectamos al sistema gestor de base de datos MYSQL:
 
 ![image](https://github.com/user-attachments/assets/94b8b1d4-25aa-468a-99b7-ef0426e1d2b8)
 
+Creamos la base de datos para wordpress:
 
+```
+CREATE DATABASE wordpress; 
+CREATE USER 'wordpress_user'@'%' IDENTIFIED BY 'password123'; 
+GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpress_user'@'%'; 
+FLUSH PRIVILEGES;
+```
+
+![image](https://github.com/user-attachments/assets/3f1a52df-ea3b-4bd9-994d-c4f0879843fc)
+
+Vamos a la interfaz web de instalación de wordpress:
+
+![image](https://github.com/user-attachments/assets/1b0747fa-e201-4eaf-9cae-7c892a616a1b)
+
+Cambiamos el nombre de wp-sa
+
+Modificamos el contenido de wp-config.php:
+
+![image](https://github.com/user-attachments/assets/e4bf6f5e-ba58-4b57-8dca-3719134109d2)
 
 
 
