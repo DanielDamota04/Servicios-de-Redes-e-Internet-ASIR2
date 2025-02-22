@@ -31,7 +31,7 @@ de 2ºASIR
 |--------------------|-------------------------------------------------------|
 | [Práctica 2.1](Tema-2/Práctica_2.1_Caché_y_Forwarding.md) | Configuración de Bind9 caché y forwarding de peticiones DNS|
 
-### Tema 3 - Amazon Web Services
+### Tema 3 - Amazon Web Services (AWS)
 
 | Práctica           | Descripción                                           |
 |--------------------|-------------------------------------------------------|
