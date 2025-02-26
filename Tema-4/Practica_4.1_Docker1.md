@@ -37,6 +37,23 @@ docker ps -a
 
 ![image](https://github.com/user-attachments/assets/b6f10dc0-b1c6-4e54-abbe-938391f90e4f)
 
+<br>
+
+4. **Crear un contenedor a través de un fichero dockerfile**
+
+Nos clonamos el repositorio getting-started-app de docker
+
+```
+git clone https://github.com/docker/getting-started-app.git
+```
+
+![image](https://github.com/user-attachments/assets/6f5d49fd-648e-4293-bc04-b382ac9e2714)
+
+
+
+
+
+
 
  
 
