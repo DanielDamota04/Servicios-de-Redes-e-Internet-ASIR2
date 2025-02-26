@@ -15,6 +15,8 @@
 docker run hello-world
 ```
 
+<br>
+
 ![image](https://github.com/user-attachments/assets/fc9010e5-975b-44d4-93eb-21940f315ef7)
 
 <br>
@@ -25,6 +27,8 @@ docker run hello-world
 docker images
 ```
 
+<br>
+
 ![image](https://github.com/user-attachments/assets/c0adb22d-90a6-4841-903c-63e532d43dc0)
 
 <br>
@@ -34,6 +38,8 @@ docker images
 ```
 docker ps -a
 ```
+
+<br>
 
 ![image](https://github.com/user-attachments/assets/b6f10dc0-b1c6-4e54-abbe-938391f90e4f)
 
@@ -69,6 +75,8 @@ Construimos el contenedor:
  docker build -t getting-started .
 ```
 
+<br>
+
 ![image](https://github.com/user-attachments/assets/da47399e-7700-416f-b77d-38c61d548b63)
 
 <br>
@@ -78,7 +86,7 @@ Iniciamos el contenedor, haciendo tunneling para acceder desde localhost al serv
 ```
 docker build -t getting-started .
 ```
-
+<br>
 ![image](https://github.com/user-attachments/assets/11b027ac-e25b-4cd1-80f4-7771003119d2)
 
 ![image](https://github.com/user-attachments/assets/a070a969-3fd1-41bc-88f8-4b38a7b7198e)
