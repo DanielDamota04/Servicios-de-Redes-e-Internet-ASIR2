@@ -87,6 +87,7 @@ Iniciamos el contenedor, haciendo tunneling para acceder desde localhost al serv
 docker build -t getting-started .
 ```
 <br>
+
 ![image](https://github.com/user-attachments/assets/11b027ac-e25b-4cd1-80f4-7771003119d2)
 
 ![image](https://github.com/user-attachments/assets/a070a969-3fd1-41bc-88f8-4b38a7b7198e)
