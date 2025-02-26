@@ -7,7 +7,7 @@
 
 ## Ejercicios
 
-Trabajando con scripts (debes publicarlos en GitHub), se te plantea resolver los siguientes problemas:
+<br>
 
 1. **Ejecutar el contenedor hello-world**
 
