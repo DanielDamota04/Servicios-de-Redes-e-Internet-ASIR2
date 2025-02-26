@@ -49,7 +49,9 @@ git clone https://github.com/docker/getting-started-app.git
 
 ![image](https://github.com/user-attachments/assets/6f5d49fd-648e-4293-bc04-b382ac9e2714)
 
-Creamos el fichero dockerfile:
+<br>
+
+Creamos el fichero dockerfile y lo editamos:
 
 ```
 nano dockerfile
@@ -59,13 +61,27 @@ nano dockerfile
 
 ![image](https://github.com/user-attachments/assets/4cbdd2fa-e3d3-418d-91ee-9b713807424b)
 
-Iniciamos el contenedor:
+<br>
+
+Construimos el contenedor:
 
 ```
-docker run
+ docker build -t getting-started .
 ```
 
 ![image](https://github.com/user-attachments/assets/da47399e-7700-416f-b77d-38c61d548b63)
+
+<br>
+
+Iniciamos el contenedor, haciendo tunneling para acceder desde localhost al servicio web:
+
+```
+docker build -t getting-started .
+```
+
+![image](https://github.com/user-attachments/assets/11b027ac-e25b-4cd1-80f4-7771003119d2)
+
+![image](https://github.com/user-attachments/assets/a070a969-3fd1-41bc-88f8-4b38a7b7198e)
 
 
 
