@@ -1,5 +1,4 @@
 
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/92b13dd5-01d7-4f83-8bb6-e218dfb11235" alt="Descripción de la imagen"/>
 </p>
@@ -16,33 +15,30 @@ Trabajando con scripts (debes publicarlos en GitHub), se te plantea resolver los
 docker run hello-world
 ```
 
+![image](https://github.com/user-attachments/assets/fc9010e5-975b-44d4-93eb-21940f315ef7)
+
+<br>
+
+2. **Ver las imágenes de docker instaladas**
+
+```
+docker images
+```
+
+![image](https://github.com/user-attachments/assets/c0adb22d-90a6-4841-903c-63e532d43dc0)
+
+<br>
+
+3. **Mostrar los contenedores docker**
+
+```
+docker ps -a
+```
+
+![image](https://github.com/user-attachments/assets/b6f10dc0-b1c6-4e54-abbe-938391f90e4f)
 
 
-
-
-2. **Añadir un nombre de dominio y una IP al fichero hosts**
-
-   Crea un script que añada un nombre de dominio y una dirección IP al fichero hosts. Debes comprobar que el dominio no exista previamente.
-
-   - Validación de argumentos.
-   - Lectura del fichero `/etc/hosts`.
-   - Añadir la entrada solo si no existe.
-  
-     <br>
-
-
-     
-   
-
-3. **Crear una página web**
-
-   Crea un script que permita generar una página web con:
-   - Un título
-   - Una cabecera
-   - Un mensaje
-
-   - Generación de un archivo HTML básico.
-   - Personalización de título, cabecera y mensaje a partir de los argumentos de entrada.
+ 
 
   
  
