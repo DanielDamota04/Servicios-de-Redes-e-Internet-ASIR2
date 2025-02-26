@@ -37,6 +37,12 @@ de 2ºASIR
 |--------------------|-------------------------------------------------------|
 | [Práctica 3.1](Tema-3/Practica_3.1_AWS.md) | Instalación de wordpress en una máquina EC2 con conexión a RDS Y EFS|
 
+### Tema 4 - Docker
+
+| Práctica           | Descripción                                           |
+|--------------------|-------------------------------------------------------|
+| [Práctica 3.1](Tema-4/Practica_4.1_Docker1.md) | Tareas básicas con contenedores docker |
+
 ---
 
 ## 🚀 Navegación
