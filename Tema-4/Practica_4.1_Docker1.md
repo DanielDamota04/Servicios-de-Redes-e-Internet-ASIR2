@@ -9,7 +9,7 @@
 
 <br>
 
-1. **Ejecutar el contenedor hello-world**
+### 1. **Ejecutar el contenedor hello-world**
 
 ```
 docker run hello-world
@@ -19,7 +19,7 @@ docker run hello-world
 
 <br>
 
-2. **Ver las imágenes de docker instaladas**
+### 2. **Ver las imágenes de docker instaladas**
 
 ```
 docker images
@@ -29,7 +29,7 @@ docker images
 
 <br>
 
-3. **Mostrar los contenedores docker**
+### 3. **Mostrar los contenedores docker**
 
 ```
 docker ps -a
@@ -39,7 +39,7 @@ docker ps -a
 
 <br>
 
-4. **Crear un contenedor a través de un fichero dockerfile**
+### 4. **Crear un contenedor a través de un fichero dockerfile**
 
 Nos clonamos el repositorio getting-started-app de docker
 
