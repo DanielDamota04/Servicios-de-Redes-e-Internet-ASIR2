@@ -41,7 +41,7 @@ de 2ºASIR
 
 | Práctica           | Descripción                                           |
 |--------------------|-------------------------------------------------------|
-| [Práctica 3.1](Tema-4/Practica_4.1_Docker1.md) | Tareas básicas con contenedores docker |
+| [Práctica 4.1](Tema-4/Practica_4.1_Docker1.md) | Tareas básicas con contenedores docker |
 
 ---
 
