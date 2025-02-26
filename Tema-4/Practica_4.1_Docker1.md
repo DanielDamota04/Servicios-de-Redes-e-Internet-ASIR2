@@ -41,13 +41,34 @@ docker ps -a
 
 ### 4. **Crear un contenedor a través de un fichero dockerfile**
 
-Nos clonamos el repositorio getting-started-app de docker
+Nos clonamos el repositorio getting-started-app de docker:
 
 ```
 git clone https://github.com/docker/getting-started-app.git
 ```
 
 ![image](https://github.com/user-attachments/assets/6f5d49fd-648e-4293-bc04-b382ac9e2714)
+
+Creamos el fichero dockerfile:
+
+```
+nano dockerfile
+```
+
+![image](https://github.com/user-attachments/assets/599bc35c-83ab-4a12-a9ec-a1b3e9adf1d4)
+
+![image](https://github.com/user-attachments/assets/4cbdd2fa-e3d3-418d-91ee-9b713807424b)
+
+Iniciamos el contenedor:
+
+```
+docker run
+```
+
+![image](https://github.com/user-attachments/assets/da47399e-7700-416f-b77d-38c61d548b63)
+
+
+
 
 
 
