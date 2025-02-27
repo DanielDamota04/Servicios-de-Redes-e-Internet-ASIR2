@@ -104,6 +104,17 @@ Creamos una cuenta de hub.docker.com:
 
 Publicamos el contenedor:
 
+1) Iniciamos sesión en docker desde el terminal:
+
+```
+docker login
+```
+
+![image](https://github.com/user-attachments/assets/90bcb0de-1a86-4de6-b41d-9206fa92bcda)
+
+Vamos a la ruta de activación y pegamos el código:
+
+![image](https://github.com/user-attachments/assets/b23bd219-1434-4944-80df-e009bc210d40)
 
 
 
