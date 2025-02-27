@@ -110,6 +110,8 @@ Publicamos el contenedor:
 
 ![image](https://github.com/user-attachments/assets/a0010dd9-d9f4-4a5f-8db0-93dfa700ac7c)
 
+<br>
+
 2) Iniciamos sesion en docker hub desde la terminal:
 
 ```
@@ -117,6 +119,13 @@ docker login -u YOUR-USER-NAME
 ```
 
 ![image](https://github.com/user-attachments/assets/1264eb2d-cb2d-419c-9bfe-0372714367c5)
+
+3) Usamos docker tag para asignar un nuevo nombre a la imagen de getting-started:
+
+```
+docker tag getting-started YOUR-USER-NAME/getting-started
+```
+
 
 
 
