@@ -108,7 +108,7 @@ Publicamos el contenedor:
 
 ![image](https://github.com/user-attachments/assets/62b37ab1-3891-49ec-9e11-dda7cff6c6a5)
 
-![image](https://github.com/user-attachments/assets/a0010dd9-d9f4-4a5f-8db0-93dfa700ac7c)
+![image](https://github.com/user-attachments/assets/820817c4-3dd7-4cf0-8003-9c275a970d5a)
 
 <br>
 
@@ -125,6 +125,19 @@ docker login -u YOUR-USER-NAME
 ```
 docker tag getting-started YOUR-USER-NAME/getting-started
 ```
+
+![image](https://github.com/user-attachments/assets/9c7330f5-0077-4f5d-ad9d-5cac2aaacfaf)
+
+<br>
+
+4) Publicamos el contenedor:
+
+```
+docker push YOUR-USER-NAME/getting-started
+```
+
+
+
 
 
 
