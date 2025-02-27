@@ -92,6 +92,20 @@ docker build -t getting-started .
 
 ![image](https://github.com/user-attachments/assets/a070a969-3fd1-41bc-88f8-4b38a7b7198e)
 
+<br>
+
+Creamos una cuenta de hub.docker.com:
+
+![image](https://github.com/user-attachments/assets/e85e949c-fb37-495a-a0dd-2865220a95a5)
+
+![image](https://github.com/user-attachments/assets/904892bf-9529-490b-8483-4ecdff622345)
+
+<br>
+
+Publicamos el contenedor:
+
+
+
 
 
 
