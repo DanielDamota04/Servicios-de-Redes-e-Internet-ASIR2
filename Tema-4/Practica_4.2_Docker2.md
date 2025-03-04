@@ -124,16 +124,18 @@ docker stop myhello2
 docker rm myhello1
 ```
 
-![image](https://github.com/user-attachments/assets/9c7330f5-0077-4f5d-ad9d-5cac2aaacfaf)
+![image](https://github.com/user-attachments/assets/416e025f-5365-4a68-ae6f-2a14d6ba849d)
+
 
 <br>
 
-4) Publicamos el contenedor:
+### 12. **Borra todos los contenedores detenidos**
 
 ```
-docker push YOUR-USER-NAME/getting-started
+docker container prune -f
 ```
 
+![image](https://github.com/user-attachments/assets/e7f04b62-0f6e-4a40-8ae8-0d19f7a818b2)
 
 
 
