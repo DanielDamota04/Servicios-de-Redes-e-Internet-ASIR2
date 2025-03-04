@@ -3,81 +3,84 @@
   <img src="https://github.com/user-attachments/assets/92b13dd5-01d7-4f83-8bb6-e218dfb11235" alt="Descripción de la imagen"/>
 </p>
 
-# Práctica 4.1 - Tareas básicas con contenedores docker
+# Práctica 4.2 - Tareas básicas con contenedores docker (Parte 2)
 
 ## Ejercicios
 
 <br>
 
-### 1. **Ejecutar el contenedor hello-world**
+### 1. **Descarga la imagen de ubuntu**
 
 ```
-docker run hello-world
+docker pull ubuntu
 ```
 
 <br>
 
-![image](https://github.com/user-attachments/assets/fc9010e5-975b-44d4-93eb-21940f315ef7)
+![image](https://github.com/user-attachments/assets/430fb910-7645-41fe-bd96-6e6f50cab734)
+
 
 <br>
 
-### 2. **Ver las imágenes de docker instaladas**
+### 2. **Descarga la imagen de hello-world**
+
+```
+docker pull hello-world
+```
+
+<br>
+
+![image](https://github.com/user-attachments/assets/691762d0-9be6-4583-af39-9bb1846124ba)
+
+<br>
+
+### 3. **Descarga la imagen nginx**
+
+```
+docker pull nginx
+```
+
+<br>
+
+![image](https://github.com/user-attachments/assets/890f7fe9-e062-4a27-b20d-5bb6f3356f04)
+
+<br>
+
+### 4. **Mostrar un listado de todas las imágenes**
 
 ```
 docker images
 ```
 
-<br>
+![image](https://github.com/user-attachments/assets/572dd7a2-80e5-464d-9b9f-9ff99577db9b)
 
-![image](https://github.com/user-attachments/assets/c0adb22d-90a6-4841-903c-63e532d43dc0)
-
-<br>
-
-### 3. **Mostrar los contenedores docker**
-
-```
-docker ps -a
-```
 
 <br>
 
-![image](https://github.com/user-attachments/assets/b6f10dc0-b1c6-4e54-abbe-938391f90e4f)
+### 5. **Ejecutar un contenedor hello-world y darle nombre “myhello1”**
+
+```
+docker run --name myhello1 hello-world
+```
+
+![image](https://github.com/user-attachments/assets/8d6bf194-8af6-4873-a8c8-efb2e3960fd2)
+
+
+![image](https://github.com/user-attachments/assets/bf939656-9709-45e4-902f-16e79f490afb)
+
 
 <br>
 
-### 4. **Crear un contenedor a través de un fichero dockerfile**
-
-Nos clonamos el repositorio getting-started-app de docker:
+### 6. **ejecutar un contenedor hello-world y darle nombre “myhello2”**
 
 ```
-git clone https://github.com/docker/getting-started-app.git
+docker run --name myhello2 hello-world
 ```
 
-![image](https://github.com/user-attachments/assets/6f5d49fd-648e-4293-bc04-b382ac9e2714)
+![image](https://github.com/user-attachments/assets/3e500a4d-e1b9-4eeb-ab07-0dd30ec6203d)
 
-<br>
 
-Creamos el fichero dockerfile y lo editamos:
 
-```
-nano dockerfile
-```
-
-![image](https://github.com/user-attachments/assets/599bc35c-83ab-4a12-a9ec-a1b3e9adf1d4)
-
-![image](https://github.com/user-attachments/assets/4cbdd2fa-e3d3-418d-91ee-9b713807424b)
-
-<br>
-
-Construimos el contenedor:
-
-```
- docker build -t getting-started .
-```
-
-<br>
-
-![image](https://github.com/user-attachments/assets/da47399e-7700-416f-b77d-38c61d548b63)
 
 <br>
 
