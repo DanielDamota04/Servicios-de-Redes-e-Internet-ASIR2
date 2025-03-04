@@ -71,7 +71,7 @@ docker run --name myhello1 hello-world
 
 <br>
 
-### 6. **ejecutar un contenedor hello-world y darle nombre “myhello2”**
+### 6. **Ejecutar un contenedor hello-world y darle nombre “myhello2”**
 
 ```
 docker run --name myhello2 hello-world
@@ -79,15 +79,14 @@ docker run --name myhello2 hello-world
 
 ![image](https://github.com/user-attachments/assets/3e500a4d-e1b9-4eeb-ab07-0dd30ec6203d)
 
-
-
+![image](https://github.com/user-attachments/assets/f4e48e18-267c-412a-891b-35a68c291ec6)
 
 <br>
 
-Iniciamos el contenedor, haciendo tunneling para acceder desde localhost al servicio web:
+### 7. **Ejecutar un contenedor hello-world y darle nombre “myhello3**
 
 ```
-docker build -t getting-started .
+docker run --name myhello3 hello-world
 ```
 <br>
 
