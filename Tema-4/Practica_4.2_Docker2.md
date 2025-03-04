@@ -90,27 +90,20 @@ docker run --name myhello3 hello-world
 ```
 <br>
 
-![image](https://github.com/user-attachments/assets/11b027ac-e25b-4cd1-80f4-7771003119d2)
+![image](https://github.com/user-attachments/assets/d2502415-72dd-4785-98b7-bfe757b42ae8)
 
-![image](https://github.com/user-attachments/assets/a070a969-3fd1-41bc-88f8-4b38a7b7198e)
+![image](https://github.com/user-attachments/assets/e279308b-ab11-4d6e-af41-55119bdd21e0)
 
-<br>
-
-Creamos una cuenta de hub.docker.com:
-
-![image](https://github.com/user-attachments/assets/e85e949c-fb37-495a-a0dd-2865220a95a5)
-
-![image](https://github.com/user-attachments/assets/904892bf-9529-490b-8483-4ecdff622345)
 
 <br>
 
-Publicamos el contenedor:
+### 8. **Mostrar los contenedores que se están ejecutando**
 
-1) Creamos el repositorio donde alojaremos el contenedor:
+![image](https://github.com/user-attachments/assets/8db07428-3a5f-4346-95e4-f2bedbce2c8e)
 
-![image](https://github.com/user-attachments/assets/62b37ab1-3891-49ec-9e11-dda7cff6c6a5)
+<br>
 
-![image](https://github.com/user-attachments/assets/820817c4-3dd7-4cf0-8003-9c275a970d5a)
+### 9. ****
 
 <br>
 
