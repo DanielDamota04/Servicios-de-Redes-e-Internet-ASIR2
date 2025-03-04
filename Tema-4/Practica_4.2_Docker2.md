@@ -103,22 +103,25 @@ docker run --name myhello3 hello-world
 
 <br>
 
-### 9. ****
+### 9. **Para el contenedor "myhello1"**
+
+```
+docker stop myhello1
+```
 
 <br>
 
-2) Iniciamos sesion en docker hub desde la terminal:
+### 10. **Para el contenedor "myhello2"**
 
 ```
-docker login -u YOUR-USER-NAME
+docker stop myhello2
 ```
+<br>
 
-![image](https://github.com/user-attachments/assets/1264eb2d-cb2d-419c-9bfe-0372714367c5)
-
-3) Usamos docker tag para asignar un nuevo nombre a la imagen de getting-started:
+### 11. ** Borra el contenedor "myhello1"**
 
 ```
-docker tag getting-started YOUR-USER-NAME/getting-started
+docker rm myhello1
 ```
 
 ![image](https://github.com/user-attachments/assets/9c7330f5-0077-4f5d-ad9d-5cac2aaacfaf)
