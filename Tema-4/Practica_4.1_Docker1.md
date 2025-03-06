@@ -92,49 +92,9 @@ docker build -t getting-started .
 
 ![image](https://github.com/user-attachments/assets/a070a969-3fd1-41bc-88f8-4b38a7b7198e)
 
-<br>
 
-Creamos una cuenta de hub.docker.com:
 
-![image](https://github.com/user-attachments/assets/e85e949c-fb37-495a-a0dd-2865220a95a5)
 
-![image](https://github.com/user-attachments/assets/904892bf-9529-490b-8483-4ecdff622345)
-
-<br>
-
-Publicamos el contenedor:
-
-1) Creamos el repositorio donde alojaremos el contenedor:
-
-![image](https://github.com/user-attachments/assets/62b37ab1-3891-49ec-9e11-dda7cff6c6a5)
-
-![image](https://github.com/user-attachments/assets/820817c4-3dd7-4cf0-8003-9c275a970d5a)
-
-<br>
-
-2) Iniciamos sesion en docker hub desde la terminal:
-
-```
-docker login -u YOUR-USER-NAME
-```
-
-![image](https://github.com/user-attachments/assets/1264eb2d-cb2d-419c-9bfe-0372714367c5)
-
-3) Usamos docker tag para asignar un nuevo nombre a la imagen de getting-started:
-
-```
-docker tag getting-started YOUR-USER-NAME/getting-started
-```
-
-![image](https://github.com/user-attachments/assets/9c7330f5-0077-4f5d-ad9d-5cac2aaacfaf)
-
-<br>
-
-4) Publicamos el contenedor:
-
-```
-docker push YOUR-USER-NAME/getting-started
-```
 
 
 
