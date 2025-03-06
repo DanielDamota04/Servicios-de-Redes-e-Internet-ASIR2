@@ -44,6 +44,13 @@ f70f22aed3d1        mariadb             "docker-entrypoint.s…"   9 minutes ago
 
 ![image](https://github.com/user-attachments/assets/994e4db9-23d2-45da-a87a-fd5632862c19)
 
+Visualizamos la ip del contenedor para acceder via web:
+
+```
+docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' servidor_wp
+```
+
+![image](https://github.com/user-attachments/assets/7b8f954b-e8b6-473f-a53f-cb1978ffa3e1)
 
 
 
