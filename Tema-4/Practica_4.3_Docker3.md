@@ -52,5 +52,10 @@ docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' ser
 
 ![image](https://github.com/user-attachments/assets/7b8f954b-e8b6-473f-a53f-cb1978ffa3e1)
 
+Accedemos desde el navegador:
+
+![image](https://github.com/user-attachments/assets/c0307c53-c263-4f66-a875-18d1d10088c0)
+
+
 
 
