@@ -58,7 +58,7 @@ Accedemos desde el navegador:
 
 ---
 
-# 1. Despliegue de Tomcat + Nginx
+# 2. Despliegue de Tomcat + Nginx
 
 En este ejemplo vamos a desplegar una aplicación muy sencilla en un servidor de aplicación Tomcat, a la que accederemos utilizando un proxy inverso nginx. En este ejercicio, además de seguir trabajando con las redes de tipo bridge definida por el usuario, vamos a usar bind mount para montar los ficheros de configuración y de despliegue en los contenedores.
 
