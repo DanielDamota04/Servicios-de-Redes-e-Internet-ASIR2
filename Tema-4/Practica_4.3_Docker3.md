@@ -38,3 +38,12 @@ f70f22aed3d1        mariadb             "docker-entrypoint.s…"   9 minutes ago
 ```
 ---
 
+![image](https://github.com/user-attachments/assets/82576e73-2ae6-4724-94de-65ecf0521a1f)
+
+![image](https://github.com/user-attachments/assets/7008b3c0-e848-41e7-8d8d-27fa151a54a8)
+
+![image](https://github.com/user-attachments/assets/994e4db9-23d2-45da-a87a-fd5632862c19)
+
+
+
+
