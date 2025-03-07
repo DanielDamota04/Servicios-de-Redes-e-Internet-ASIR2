@@ -93,6 +93,8 @@ $ docker run -d --name aplicacionjava \
                 tomcat:9.0
 ```
 
+
+
 ## Desplegando nginx como proxy inverso
 
 Como vimos anteriormente en el directorio de trabajo tenemos también la configuración de nginx para que funcione como proxy inverso:
@@ -124,6 +126,9 @@ $ docker run -d --name proxy \
 ```
 
 Y al acceder la ip de nuestro host:
+
+![image](https://github.com/user-attachments/assets/33f09303-1a8c-4b68-8940-bffd116f22d3)
+
 
 
 
